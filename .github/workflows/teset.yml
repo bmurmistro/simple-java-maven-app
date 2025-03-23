@@ -36,3 +36,6 @@ jobs:
     - name: sh
       shell: bash
       run: "./jenkins/scripts/deliver.sh"
+    - name: sh
+      shell: bash
+      run: "java -jar ./target/${NAME}-${VERSION}.jar"
